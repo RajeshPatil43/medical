@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+    <style>
+        :root { --mavi: #6bc1f1 }
+header { background: url('https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0zNzNiYXRjaDE1LTIxNy0wMS5qcGc.jpg') center/cover }
+.bg-mavi { background-color: var(--mavi) }
+.bg-goy{background-color: #072035;}
+.bg-boz { background-color: #f1f1f1 }
+.text-mavi { color: var(--mavi) }
+.vh-50 { min-height: 50vh; }
+.features:hover { opacity: .5;}
+.serviceimgs{ width: 100px; height: 100px;}
+.carousel-caption , .carousel-item {height: 200px;}
+.carousel-indicators button { width: 45px!important; height: 45px!important; border-radius: 50%; }
+.carousel-indicators button.active { width: 50px!important; height: 50px!important; }
+
+.carousel-inner h6 { text-transform: uppercase; letter-spacing: .1rem;}
+.carousel-inner p { text-transform: uppercase; color: rgba(255, 255, 255, 0.7);}
+
+footer p{
+    opacity: 0.7;
+    font-size: 0.8rem;
+    line-height: 30px;
+    color: #fff;
+    font-weight: 400;
+    font-family: "Roboto";
+}
+
+footer h5{
+    margin-top: 40px;
+    font-size: 1.1rem;
+    color: #fff;
+    font-weight: 400;
+    font-family: "Roboto";
+    
+}
+
+.bt1 { background: url("img/feature-1.jpg") center/cover;}
+.bt2 { background: url("img/feature-2.jpg") center/cover;}
+.bt3 { background: url("img/feature-3.jpg") center/cover;}
+.bt4 { background: url("img/feature-4.jpg") center/cover;}
+.bt5 { background: url("img/feature-5.jpg") center/cover;}
+    </style>
+</head>
+    <body>
+        <header class="min-vh-100">
+            <nav class="navbar navbar-expand-lg fixed-top bg-white bg-opacity-75">
+                <div class="container">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <a class="navbar-brand" href="#">
+                        
+
+                    </a>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="about.html">About us</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                      </li>
+                     
+                      <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                      </li>
+                    </ul>
+                    
+                  </div>
+                </div>
+            </nav>
+
+            <div class="container vh-100 d-flex align-items-center justify-content-center">
+                <div class="row w-100">
+                    <div class="card col-lg-6 bg-transparent border-0 text-white" >
+                        <div class="card-body">
+                            <h1 class="card-title display-3"><b>Shree Ram Medical</b></h1>
+                            <h5 class="card-subtitle mb-2">Welcome to the world of pharmacy.</h5>
+                            <p class="card-text my-5">Our pharmacy is your trusted source for quality medications.</p>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="py-5">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-6 ">
+                            <div class="card bg-transparent border-0" >
+                                <div class="card-body">
+                                    <h6 class="card-title text-mavi text-uppercase">Welcome to clinic</h6>
+                                    <h2 class="card-subtitle mb-2">Why you should choose us?</h2>
+                                    <p class="card-text my-4"> Our medical shop prioritizes the procurement of genuine, high-quality medications and healthcare products and we offer a diverse range of pharmaceuticals, healthcare products, and medical supplies to cater to various needs. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 text-end">
+                            <img src="https://logoisus.com/wp-content/uploads/2021/09/MEDICAL.jpg" class="mw-100" alt="Hekim baba" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-mavi">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-6 vh-50 d-flex align-items-center order-md-1">
+                            <div class="card bg-transparent border-0 text-white text-center mx-md-5 px-md-5" >
+                                <div class="card-body">
+                                    <h6 class="card-title text-uppercase">Features</h6>
+                                    <h2 class="card-subtitle mb-2">Convenience</h2>
+                                    <p class="card-text my-4">Shopping with us is convenient and hassle-free. Our online platform allows you to browse and purchase products from the comfort of your home, saving you time and effort.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 vh-50 features" style="background: url('https://img.freepik.com/free-photo/pharmacy-foreground-with-counter-blurred-backdrop-medicine-shelves-emphasizing-recycled-plastic-bottle-usage_91128-3490.jpg') center/cover;"></div>
+                        <div class="col-md-6 vh-50 d-flex align-items-center order-md-1">
+                            <div class="card bg-transparent border-0 text-white text-center mx-md-5 px-md-5 " >
+                                <div class="card-body">
+                                    <h6 class="card-title text-uppercase">Features</h6>
+                                    <h2 class="card-subtitle mb-2">Prompt Delivery</h2>
+                                    <p class="card-text my-4">We understand the urgency of medical needs. Our efficient delivery system ensures that your orders reach you in a timely manner, whether you're at home or in need of urgent medication.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 vh-50 order-md-1 features" style="background: url('https://d3l9a8mvoa6cl8.cloudfront.net/wp-content/uploads/sites/3/2020/06/03170746/medicine-delivery-app-min.jpg') center/cover"></div>
+                    </div>
+                </div>
+            </div>
+                
+           
+        </main>
+
+        <footer class="bg-goy">
+            <div class="container">
+                <div class="row  py-4 jus d-flex justify-content-center">
+                    <div class="col-md-5 text-white ">
+                        <h5>Medical</h5>
+                        <p>As our medical provides wide variety of the medicines in the Pimplaner and its one of the famous medical shops among of all. </p>
+                        <p></p>
+                    </div>
+                    <div class="col-md-4 text-white ">
+                        
+                        <p> <h5>Pimpalner</h5></p>
+                        <p>Shree Ram Medical,Near Bus stand,Tal-Sakri,Dist-Dhule. <br></p>
+                    </div>
+                    <div class="col-md-3 text-white ">
+                        
+                        <p> <h5>Contact</h5></p>
+                        <p>Number : 87677 7XXXX<br>Email : rammedico123@gmail.com</p>
+                    </div>
+                   
+                   
+                </div>
+            </div>
+            <h5 class="text-center">@2024 .All rights reserved</h5>
+            <div class="row justify-content-center">
+
+            
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    </body>
+</html>
